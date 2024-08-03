@@ -1,0 +1,92 @@
+body{
+    color: white;
+    margin: 0;
+    padding: 0;
+    background: url("outdoor.jpg")   
+}
+.left{
+    
+    display: inline-block;
+    position: absolute;
+    left: 50px;
+    top: 30px;
+}
+.left img{
+   
+    width: 60px;
+}
+.left div{
+    text-align: center;
+}
+.mid{
+    
+    display: block;
+    width: 40%;
+    margin: 30px  auto;
+}
+.right{
+   
+    position: absolute;
+    right: 32px;
+    top:30px;
+    display: inline-block;
+}
+.btn{
+    margin: 10px;
+    padding: 10px 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgb(71, 119, 119);
+
+}
+.btn:hover{
+    background-color: gray;
+}
+.navbar li{
+    display: inline-block;
+    font-size: larger;
+}
+.navbar li a{
+    border: 2px solid red;
+    color: #080808;
+    text-decoration: none;
+    padding: 20px 30px;
+    font-size: large;
+
+}
+.navbar li a:hover{
+    text-decoration:underline ;
+    color: yellow;
+   
+
+}
+.r1{
+    margin: 33px;
+    padding: 34px;
+    font-size: large;
+
+}
+.r1 h1{
+   text-align: center; 
+}
+.r1 h3{
+    text-align: center; 
+}
+
+.r2{    margin: -1px;
+    padding: 11px;
+    text-align: center;
+}
+.btn1{
+    display: block;
+    width: 58px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgb(71, 119, 119);
+}
+.btn1:hover{
+    background-color: darkgray;
+}
